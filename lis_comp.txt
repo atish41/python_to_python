@@ -1,0 +1,10 @@
+#list comprehnsion
+
+values=[52.9,'jaswant',44,'nireekshan',8.5,'prasad','kumar',90]
+
+string_values=[item for item in values if isinstance(item,str)]
+int_values=[item for item in values if isinstance(item,int)]
+
+print(string_values)
+print(int_values)
+
